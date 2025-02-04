@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"name": "Chrome Extension Example",
 	"description": "This is my very first chrome extension",
+	"permissions": ["activeTab", "scripting"],
 	"action": {
 		"default_popup": "index.html"
 	}
